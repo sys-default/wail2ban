@@ -64,7 +64,6 @@ $null = $CheckEvents.columns.add("EventDescription")
 $WhiteList = @()
 #$host.UI.RawUI.BufferSize = new-object System.Management.Automation.Host.Size(100,50)
 
-$OSVersion = invoke-expression "wmic os get Caption /value"
 $BLOCK_TYPE = "NETSH"
 
 #Grep configuration file 
